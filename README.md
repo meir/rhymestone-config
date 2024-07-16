@@ -33,7 +33,7 @@ MS_X   | Move mouse in direction.
 WH_X   | Mouse wheel in direction.
 BOOT   | QMK Reboot.
        | Empty will have the same key as previous layer.
-🚫     | Unassigned, will do nothing.
+✖      | Unassigned, will do nothing.
 
 > To get to the ADJUST layer you will have to hold `LOW` and `HIG` together.
 
@@ -50,8 +50,8 @@ Base
 Lower
 ,-----------------------------.     ,-----------------------------.
 |  !  |  @  |  #  |  $  |  %  |     |  ^  |  &  |  *  |  (  |  )  |
-| ESC |  F3 |  F2 |  F3 |  🚫 |     |  -  |  =  |  [  |  ]  |  '  |
-| TSF |  F4 |  F5 |  F6 |  🚫 |     | DEL |  🚫 |  🚫 |  /  |     |
+| ESC |  F3 |  F2 |  F3 |  ✖  |     |  -  |  =  |  [  |  ]  |  '  |
+| TSF |  F4 |  F5 |  F6 |  ✖  |     | DEL |  ✖  |  ✖  |  /  |     |
 |     |     |     |     |     |     |     |     |     |     |     |
 `-----------------------------'     `-----------------------------'
 
@@ -65,9 +65,9 @@ Raise
 
 Adjust
 ,-----------------------------.     ,-----------------------------.
-| BOOT|  🚫 |  🚫 |  🚫 |  🚫 |     | BTN4| BTN3| BTN5| WH_U|  🚫 |
-|RGB_T|ACC_0|ACC_1|ACC_2|RGB_P|     | BTN1| MS_U| BTN2| WH_D|  🚫 |
-|RGB_M|  🚫 |  🚫 |  🚫 |  🚫 |     | MS_L| MS_D| MS_R|  🚫 |     |
+| BOOT|  ✖  |  ✖  |  ✖  |  ✖  |     | BTN4| BTN3| BTN5| WH_U|  ✖  |
+|RGB_T|ACC_0|ACC_1|ACC_2|RGB_P|     | BTN1| MS_U| BTN2| WH_D|  ✖  |
+|RGB_M|  ✖  |  ✖  |  ✖  |  ✖  |     | MS_L| MS_D| MS_R|  ✖  |     |
 |     | MAC | WIN |     |     |     |     |     |     |     |     |
 `-----------------------------'     `-----------------------------'
 
